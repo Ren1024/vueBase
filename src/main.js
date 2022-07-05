@@ -1,17 +1,9 @@
-import Vue from 'vue' 
-// import Vue from 'vue/dist/vue.esm'
-import App from './App.vue'
+import Vue from 'vue'
+import App from '@/App'
 
-/* new Vue({
-  el:'#app',
-  components:{
-    App
-  },
-  template:'<App/>'
-}) */
-
+Vue.config.productionTip = false
 
 new Vue({
-  el:'#app',
-  render: h => h(App)
+    el:'#app',
+    render: h => h(App)
 })
