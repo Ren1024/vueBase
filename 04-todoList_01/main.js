@@ -1,4 +1,4 @@
-import Vue, { h } from 'vue'
+import Vue from 'vue'
 import App from '@/App.vue'
 
 new Vue({
